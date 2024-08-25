@@ -4,7 +4,7 @@ const seconds = document.querySelector(".seconds .number"),
   days = document.querySelector(".days .number");
 
 // Set the target date and time (Jan 5, 2024, 15:37:25)
-const targetDate = new Date("2023-09-10T00:00:00").getTime();
+const targetDate = new Date("2050-01-01T00:00:00").getTime();
 
 const timeFunction = setInterval(() => {
   // Get the current date and time
